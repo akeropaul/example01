@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest
+FROM node:slim
 MAINTAINER AkeroPaul <akeropaul@gmail.com>
 
 WORKDIR /var/app
