@@ -10,6 +10,7 @@ app.get('/', function (req, res) {
 let server = app.listen(port, function () {
   console.log(`Example app listening on port ${port}!`)
   console.log('Here is meep', process.env.MEEP)
+  console.log('another log');
 })
 
 module.exports = server
